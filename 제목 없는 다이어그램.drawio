@@ -1,9 +1,163 @@
-<mxfile host="app.diagrams.net" modified="2024-05-25T11:50:26.483Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" version="24.4.8" etag="rRhDYa-E61ncZjbAEkqC" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-25T13:05:31.512Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="KD-6jCHOFbPlIsehTI9U" version="24.4.8" type="github">
   <diagram name="페이지-1" id="zzNntaN4sGAtEQ5nvoOX">
-    <mxGraphModel>
+    <mxGraphModel dx="1011" dy="625" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="L8a_cEX9qCgZpHhWXm6b-3" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="370" width="90" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="L8a_cEX9qCgZpHhWXm6b-4" value="1.url&lt;br&gt;2. 제목&lt;div&gt;3. 첫 문장&amp;nbsp;&lt;/div&gt;&lt;div&gt;4. 끝 문장 입력&amp;nbsp;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="240" y="345" width="120" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="L8a_cEX9qCgZpHhWXm6b-5" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="430" as="sourcePoint" />
+            <mxPoint x="230" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L8a_cEX9qCgZpHhWXm6b-6" value="1. url 호출&lt;div&gt;2. html 파싱&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="490" y="347.5" width="120" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="L8a_cEX9qCgZpHhWXm6b-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="L8a_cEX9qCgZpHhWXm6b-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="420" as="sourcePoint" />
+            <mxPoint x="440" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L8a_cEX9qCgZpHhWXm6b-8" value="&lt;div&gt;check&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1. 파싱된 결과의 길이&lt;/div&gt;&lt;div&gt;2. 첫문장, 끝문장으로 컨텐츠가 유일하게 구분되는가?&amp;nbsp;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="750" y="345" width="120" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="L8a_cEX9qCgZpHhWXm6b-9" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="L8a_cEX9qCgZpHhWXm6b-6" target="L8a_cEX9qCgZpHhWXm6b-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="550" as="sourcePoint" />
+            <mxPoint x="440" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L8a_cEX9qCgZpHhWXm6b-10" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="585" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="L8a_cEX9qCgZpHhWXm6b-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.001;entryY=0.455;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="L8a_cEX9qCgZpHhWXm6b-10" target="L8a_cEX9qCgZpHhWXm6b-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="550" as="sourcePoint" />
+            <mxPoint x="580" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L8a_cEX9qCgZpHhWXm6b-12" value="make message&amp;nbsp;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;br&gt;1.&amp;nbsp; 나누기 기준이 안되는 경우&amp;nbsp;&lt;br&gt;&lt;/span&gt;-&amp;gt;&amp;nbsp; 추천하는 나누기 첫, 끝 문장을 추천해줌&lt;br&gt;&lt;br&gt;2. 호출 자체가 에러인 경우&lt;br&gt;-&amp;gt;&amp;nbsp; 잘못된 url 임을 명시&amp;nbsp;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="350" y="560" width="230" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="L8a_cEX9qCgZpHhWXm6b-13" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="L8a_cEX9qCgZpHhWXm6b-12" target="L8a_cEX9qCgZpHhWXm6b-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="550" as="sourcePoint" />
+            <mxPoint x="440" y="500" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="110" y="640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L8a_cEX9qCgZpHhWXm6b-14" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="L8a_cEX9qCgZpHhWXm6b-8" target="L8a_cEX9qCgZpHhWXm6b-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="550" as="sourcePoint" />
+            <mxPoint x="440" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L8a_cEX9qCgZpHhWXm6b-15" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="670" y="635" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="L8a_cEX9qCgZpHhWXm6b-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="L8a_cEX9qCgZpHhWXm6b-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="550" as="sourcePoint" />
+            <mxPoint x="960" y="625" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L8a_cEX9qCgZpHhWXm6b-17" value="Yes" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="860" y="635" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="L8a_cEX9qCgZpHhWXm6b-20" value="완료 메세지 전송&amp;nbsp;&lt;br&gt;&lt;br&gt;메세지 스팩&amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- key&amp;nbsp;&lt;/div&gt;&lt;div&gt;- 제목&amp;nbsp;&lt;br&gt;- STATUS : WAIT&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="970" y="552.5" width="120" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="L8a_cEX9qCgZpHhWXm6b-21" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="500" as="sourcePoint" />
+            <mxPoint x="1040" y="697.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="60" y="760" />
+              <mxPoint x="1040" y="760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L8a_cEX9qCgZpHhWXm6b-22" value="parsing 문자열&amp;nbsp;&lt;div&gt;chunk 단위로 분해&amp;nbsp;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="585" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L8a_cEX9qCgZpHhWXm6b-23" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="L8a_cEX9qCgZpHhWXm6b-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1090" y="620" as="sourcePoint" />
+            <mxPoint x="440" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L8a_cEX9qCgZpHhWXm6b-24" value="분해된 chunk 를 인자로&amp;nbsp;&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;open ai 호출- &amp;gt;&lt;br&gt;&amp;nbsp;md 형식으로&amp;nbsp;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="595" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L8a_cEX9qCgZpHhWXm6b-25" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="L8a_cEX9qCgZpHhWXm6b-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1280" y="620" as="sourcePoint" />
+            <mxPoint x="1240" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L8a_cEX9qCgZpHhWXm6b-26" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="299.5" y="345" as="sourcePoint" />
+            <mxPoint x="299.5" y="215" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L8a_cEX9qCgZpHhWXm6b-28" value="로깅 :&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L8a_cEX9qCgZpHhWXm6b-29" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1009.5" y="552.5" as="sourcePoint" />
+            <mxPoint x="1010" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L8a_cEX9qCgZpHhWXm6b-30" value="DB 저장&amp;nbsp;&lt;br&gt;ParsingReq{&lt;div&gt;&amp;nbsp;id: long&lt;br&gt;&amp;nbsp;user: varchar&lt;/div&gt;&lt;div&gt;&amp;nbsp;title :&amp;nbsp; varchar&lt;/div&gt;&lt;div&gt;&amp;nbsp;status :&amp;nbsp; enum&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="950" y="20" width="240" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="L8a_cEX9qCgZpHhWXm6b-31" value="DB 저장&amp;nbsp;&lt;br&gt;ReqChunk{&lt;div&gt;&amp;nbsp; id: long&amp;nbsp;&lt;br&gt;&amp;nbsp; requestKey : long,&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; chunk : LongText ,&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; size: Long&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="170" width="240" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="L8a_cEX9qCgZpHhWXm6b-32" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1210" y="590" as="sourcePoint" />
+            <mxPoint x="1210" y="275" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L8a_cEX9qCgZpHhWXm6b-33" value="DB 저장&amp;nbsp;&lt;br&gt;OpenAiReq{&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; full_message : Long txt&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; result : boolean&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; tokens: tokens&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; result message : result&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&amp;nbsp; reqId: long&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; chunkId : chunk&lt;br&gt;}&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="160" width="240" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="L8a_cEX9qCgZpHhWXm6b-34" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1490" y="595" as="sourcePoint" />
+            <mxPoint x="1490" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L8a_cEX9qCgZpHhWXm6b-36" value="결과를 하나의 md 응답으로 생성&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1730" y="595" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L8a_cEX9qCgZpHhWXm6b-37" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="L8a_cEX9qCgZpHhWXm6b-24" target="L8a_cEX9qCgZpHhWXm6b-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1700" y="510" as="sourcePoint" />
+            <mxPoint x="1750" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L8a_cEX9qCgZpHhWXm6b-38" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1780" y="595" as="sourcePoint" />
+            <mxPoint x="1780" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L8a_cEX9qCgZpHhWXm6b-39" value="DB 저장&amp;nbsp;&lt;br&gt;mdConvertResult{&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;id : long&lt;br&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;reqId: long&amp;nbsp;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;md: longText,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;}&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1710" y="160" width="240" height="110" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
