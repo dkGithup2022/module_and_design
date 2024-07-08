@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-08T07:43:05.023Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="w7PQ0v1KqyKm9kp0lqVz" version="24.6.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-07-08T07:45:36.719Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="eWphq_etH0uX3Bp-dGGn" version="24.6.4" type="github" pages="2">
   <diagram name="페이지-1" id="zzNntaN4sGAtEQ5nvoOX">
     <mxGraphModel dx="1314" dy="812" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -162,10 +162,34 @@
     </mxGraphModel>
   </diagram>
   <diagram id="WNv1mQJumz_6ISoKNck1" name="페이지-2">
-    <mxGraphModel dx="1314" dy="812" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="890" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="hGG4I8Mw-_6Cf5Peo73v-1" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Client - web page&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="230" y="225" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="hGG4I8Mw-_6Cf5Peo73v-2" value="user&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="235" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hGG4I8Mw-_6Cf5Peo73v-3" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#000000;shape=mxgraph.azure.github_code;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="250" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hGG4I8Mw-_6Cf5Peo73v-4" value="&lt;b&gt;&lt;font style=&quot;font-size: 25px;&quot;&gt;회원가입 시나리오&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="130" width="295" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hGG4I8Mw-_6Cf5Peo73v-5" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.002;entryY=0.549;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="hGG4I8Mw-_6Cf5Peo73v-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="280" as="sourcePoint" />
+            <mxPoint x="740" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hGG4I8Mw-_6Cf5Peo73v-6" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.6;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.001;exitY=0.558;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="hGG4I8Mw-_6Cf5Peo73v-1" target="hGG4I8Mw-_6Cf5Peo73v-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="290" as="sourcePoint" />
+            <mxPoint x="240" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
