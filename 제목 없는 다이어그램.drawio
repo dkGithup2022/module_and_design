@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-25T06:05:18.238Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="Mod2MkCzm1sfMpr_SEeB" version="24.6.5" type="github" pages="5">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.6" pages="6">
   <diagram name="페이지-1" id="zzNntaN4sGAtEQ5nvoOX">
     <mxGraphModel dx="1314" dy="812" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -561,6 +561,119 @@
         </mxCell>
         <mxCell id="Cn6YhiJK5diIY_13pykI-30" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;4. add vector embeddings&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1700" y="370" width="190" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="M4cA5FZtl3ouqaZ2lL1R" name="8버전이전이후검색비교">
+    <mxGraphModel dx="2579" dy="1083" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tAcJDVaVDI1rkT_uGdjM-21" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fffff5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="190" width="590" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="tAcJDVaVDI1rkT_uGdjM-1" value="User&amp;nbsp;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="270" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tAcJDVaVDI1rkT_uGdjM-3" value="Api server" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="120" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tAcJDVaVDI1rkT_uGdjM-4" value="ML Model &lt;br&gt;hosting server" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="120" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tAcJDVaVDI1rkT_uGdjM-7" value="" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;kubernetesLabel=1;prIcon=pod" vertex="1" parent="1">
+          <mxGeometry x="90" y="250" width="50" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="tAcJDVaVDI1rkT_uGdjM-5" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/long-shadow-web-icons/512/python-128.png" vertex="1" parent="1">
+          <mxGeometry x="100" y="370" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tAcJDVaVDI1rkT_uGdjM-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tAcJDVaVDI1rkT_uGdjM-1" target="tAcJDVaVDI1rkT_uGdjM-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="440" as="sourcePoint" />
+            <mxPoint x="440" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tAcJDVaVDI1rkT_uGdjM-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="tAcJDVaVDI1rkT_uGdjM-4" target="tAcJDVaVDI1rkT_uGdjM-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="440" as="sourcePoint" />
+            <mxPoint x="440" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tAcJDVaVDI1rkT_uGdjM-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="tAcJDVaVDI1rkT_uGdjM-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="440" as="sourcePoint" />
+            <mxPoint x="380" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tAcJDVaVDI1rkT_uGdjM-11" value="1. 요청" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="310" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tAcJDVaVDI1rkT_uGdjM-12" value="2. 요청 파라미터를 벡터화&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="350" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tAcJDVaVDI1rkT_uGdjM-14" value="3. 벡터로 검색&amp;amp;인덱싱" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="270" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tAcJDVaVDI1rkT_uGdjM-18" value="&lt;b&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;CASE 1: 8버전 이전&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="200" width="345" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tAcJDVaVDI1rkT_uGdjM-19" value="Elasticsearch - data node" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="390" y="260" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tAcJDVaVDI1rkT_uGdjM-22" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fffff5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="600" y="190" width="590" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="tAcJDVaVDI1rkT_uGdjM-23" value="User&amp;nbsp;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="270" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tAcJDVaVDI1rkT_uGdjM-24" value="Api server" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="730" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tAcJDVaVDI1rkT_uGdjM-26" value="" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;kubernetesLabel=1;prIcon=pod" vertex="1" parent="1">
+          <mxGeometry x="700" y="250" width="50" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="tAcJDVaVDI1rkT_uGdjM-28" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tAcJDVaVDI1rkT_uGdjM-23" target="tAcJDVaVDI1rkT_uGdjM-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1000" y="440" as="sourcePoint" />
+            <mxPoint x="1050" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tAcJDVaVDI1rkT_uGdjM-30" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="tAcJDVaVDI1rkT_uGdjM-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1000" y="440" as="sourcePoint" />
+            <mxPoint x="990" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tAcJDVaVDI1rkT_uGdjM-31" value="1. 요청" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="650" y="300" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tAcJDVaVDI1rkT_uGdjM-37" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0fff0;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="990" y="220" width="180" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="tAcJDVaVDI1rkT_uGdjM-33" value="2. 요청 파라미터를 string&amp;nbsp;&lt;br&gt;그대로 검색 &amp;amp; 인덱싱" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="804" y="300" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tAcJDVaVDI1rkT_uGdjM-34" value="&lt;b&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;CASE 2: 8버전&amp;nbsp;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="200" width="345" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tAcJDVaVDI1rkT_uGdjM-35" value="Elasticsearch - ingest node" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="260" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tAcJDVaVDI1rkT_uGdjM-36" value="Elasticsearch - data node" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="380" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tAcJDVaVDI1rkT_uGdjM-38" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;Es Cluster&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="870" y="190" width="345" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tAcJDVaVDI1rkT_uGdjM-39" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="tAcJDVaVDI1rkT_uGdjM-35" target="tAcJDVaVDI1rkT_uGdjM-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1000" y="280" as="sourcePoint" />
+            <mxPoint x="1050" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tAcJDVaVDI1rkT_uGdjM-40" value="3. 벡터화된 파라미터로 요청 &amp;amp; 인덱싱" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="350" width="210" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
