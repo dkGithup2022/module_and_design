@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.0" pages="20">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.0" pages="21">
   <diagram name="페이지-1" id="zzNntaN4sGAtEQ5nvoOX">
     <mxGraphModel dx="1314" dy="812" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2242,18 +2242,308 @@
     </mxGraphModel>
   </diagram>
   <diagram id="fxT58klrVKGchjUTlXP0" name="badGpt-ui">
-    <mxGraphModel dx="1637" dy="1315" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3694" dy="2230" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="0zPFjgJ2CONHyVm8b-xY-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-68" y="-171" width="504" height="746" as="geometry" />
         </mxCell>
-        <mxCell id="0zPFjgJ2CONHyVm8b-xY-3" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#1ba1e2;sketch=1;" vertex="1" parent="1">
-          <mxGeometry x="-4" y="-102" width="389" height="199" as="geometry" />
+        <mxCell id="CjfwvWxDudVawgM0l_9T-4" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="-31" y="95" width="441" height="432" as="geometry" />
         </mxCell>
-        <mxCell id="0zPFjgJ2CONHyVm8b-xY-4" value="" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=27;position=0.3;" vertex="1" parent="1">
-          <mxGeometry x="284" y="170" width="120" height="80" as="geometry" />
+        <mxCell id="0zPFjgJ2CONHyVm8b-xY-3" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#fff2cc;sketch=1;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-39" y="-148" width="450" height="224" as="geometry" />
+        </mxCell>
+        <mxCell id="0zPFjgJ2CONHyVm8b-xY-4" value="검색과 llm 으로 도달 불가능한 정보를 찾아보세요." style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=34;position=0.76;base=12;position2=0.8;" vertex="1" parent="1">
+          <mxGeometry x="130" y="148" width="255" height="83" as="geometry" />
+        </mxCell>
+        <mxCell id="0zPFjgJ2CONHyVm8b-xY-5" value="더 할 말 있으면 여기에 쓰기" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="28" y="-57" width="323" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="CjfwvWxDudVawgM0l_9T-1" value="Bad-Gpt" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="38" y="-114" width="301" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CjfwvWxDudVawgM0l_9T-2" value="이전 다른 유저의 응답에서 인사이트를 얻습니다." style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=34;position=0.76;base=12;position2=0.8;" vertex="1" parent="1">
+          <mxGeometry x="130" y="263" width="255" height="83" as="geometry" />
+        </mxCell>
+        <mxCell id="CjfwvWxDudVawgM0l_9T-3" value="이전 다른 유저의 응답에서 인사이트를 얻습니다." style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=34;position=0.76;base=12;position2=0.8;" vertex="1" parent="1">
+          <mxGeometry x="132" y="366" width="255" height="83" as="geometry" />
+        </mxCell>
+        <mxCell id="CjfwvWxDudVawgM0l_9T-8" value="시작하기" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#343A40;strokeWidth=1;fillColor=none;fontColor=#343A40;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=0;fontSize=16;spacing=5;" vertex="1" parent="1">
+          <mxGeometry x="241" y="12" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CjfwvWxDudVawgM0l_9T-9" value="더 자세한 설명" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#343A40;strokeWidth=1;fillColor=none;fontColor=#343A40;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=0;fontSize=16;spacing=5;" vertex="1" parent="1">
+          <mxGeometry x="28" y="14" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CjfwvWxDudVawgM0l_9T-10" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="504" y="-171" width="504" height="746" as="geometry" />
+        </mxCell>
+        <mxCell id="CjfwvWxDudVawgM0l_9T-11" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#fff2cc;sketch=1;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="527" y="-135" width="450" height="224" as="geometry" />
+        </mxCell>
+        <mxCell id="CjfwvWxDudVawgM0l_9T-13" value="Bad-Gpt" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="599" y="-121" width="301" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CjfwvWxDudVawgM0l_9T-15" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;입력하기&lt;/font&gt;" style="strokeWidth=1;html=1;shadow=0;dashed=0;shape=mxgraph.ios.iTextInput;strokeColor=#444444;buttonText=;fontSize=8;whiteSpace=wrap;align=left;" vertex="1" parent="1">
+          <mxGeometry x="590.5" y="4" width="320.5" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="CjfwvWxDudVawgM0l_9T-16" value="&lt;b&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;탐구할 주제에 대해 작성하세요.&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="590.5" y="-60" width="255" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CjfwvWxDudVawgM0l_9T-17" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="529" y="106" width="442" height="425" as="geometry" />
+        </mxCell>
+        <mxCell id="CjfwvWxDudVawgM0l_9T-18" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;앞으로 우리는 해당 주제에 대해 알아봅니다.&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="504" y="126" width="504" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CjfwvWxDudVawgM0l_9T-19" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;문제 해결 과정을 구조화 합니다.&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="497.5" y="172" width="504" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CjfwvWxDudVawgM0l_9T-20" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;필요한 정보를 수집합니다. 이 과정에서 유저 당신의 확인이 필요합니다.&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="498" y="224" width="504" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CjfwvWxDudVawgM0l_9T-21" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;구조화된 문제에 대한 단계별 해답을 제공합니다.&amp;nbsp;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="270" width="504" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CjfwvWxDudVawgM0l_9T-22" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;비슷한 이전 사용자의 요청을 살펴보세요.&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="504" y="387" width="504" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CjfwvWxDudVawgM0l_9T-23" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;구조화된 문제에 대한 단계별 해답을 제공합니다.&amp;nbsp;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="504" y="326" width="504" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CjfwvWxDudVawgM0l_9T-24" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;www.badGpt.com&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="128" y="-228" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CjfwvWxDudVawgM0l_9T-25" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;www.badGpt.com/start&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="726" y="-226" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CjfwvWxDudVawgM0l_9T-26" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;www.badGpt.com/chat&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1264" y="-232" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CjfwvWxDudVawgM0l_9T-27" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;대화 예시를 보려면 왼쪽 버튼을 클릭하세요.&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="497.5" y="454" width="504" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CjfwvWxDudVawgM0l_9T-28" value="예시보기" style="labelPosition=center;verticalLabelPosition=middle;align=center;html=1;shape=mxgraph.basic.shaded_button;dx=10;fillColor=#E6E6E6;strokeColor=none;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="883" y="443" width="77" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="CjfwvWxDudVawgM0l_9T-29" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1063" y="-171" width="504" height="746" as="geometry" />
+        </mxCell>
+        <mxCell id="CjfwvWxDudVawgM0l_9T-31" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=light-dark(#fffaeb, #281d00);sketch=1;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1092" y="-148" width="450" height="692" as="geometry" />
+        </mxCell>
+        <mxCell id="CjfwvWxDudVawgM0l_9T-32" value="딸기 케이크면 충분해. 레시피 제공에서 가격이나 소모 시간을 명확하게 표시해줘&amp;nbsp;&amp;nbsp;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=34;position=0.76;base=12;position2=0.89;" vertex="1" parent="1">
+          <mxGeometry x="1251" y="212" width="276" height="83" as="geometry" />
+        </mxCell>
+        <mxCell id="CjfwvWxDudVawgM0l_9T-39" value="안녕. 너의 질문 &quot;케이크를 만드는 방법&quot; 에 대한&amp;nbsp;&lt;br&gt;&lt;div style=&quot;&quot;&gt;해결 방안을 구조화해 봤어 아래가 맞는지 확인해줘&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=33;position=0.2;base=12;position2=0.04;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1121" y="-121" width="255" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="CjfwvWxDudVawgM0l_9T-41" value="1. 케이크의 종류 특정 및 선택&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;2. 각 케이크의 레시피 제공&lt;/span&gt;&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=33;position=0.2;base=12;position2=0.04;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1121" y="18" width="255" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="CjfwvWxDudVawgM0l_9T-43" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;그렇다&amp;nbsp;&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1136" y="134" width="89" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="CjfwvWxDudVawgM0l_9T-44" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;틀리다&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1270.5" y="134" width="89" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="CjfwvWxDudVawgM0l_9T-45" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;추가 요청&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1394" y="134" width="89" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="CjfwvWxDudVawgM0l_9T-46" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;추가 요청&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1136" y="217.5" width="89" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="CjfwvWxDudVawgM0l_9T-47" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.996;entryY=0.488;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="CjfwvWxDudVawgM0l_9T-31" target="CjfwvWxDudVawgM0l_9T-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="984" y="206" as="sourcePoint" />
+            <mxPoint x="1034" y="156" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CjfwvWxDudVawgM0l_9T-48" value="그러면 해당 질문을 다시 구조화 했어.&lt;br&gt;&amp;nbsp;아래가 맞는지 확인해줘" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=33;position=0.2;base=12;position2=0.04;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1104.5" y="293" width="255" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="CjfwvWxDudVawgM0l_9T-49" value="1. 딸기 케이크의 종류 특정 및 선택&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;2. 각 케이크의 레시피 제공, 소모 시간, 내용, 레퍼런스를 명확하게 표시.&lt;/span&gt;&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=33;position=0.2;base=12;position2=0.04;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1104.5" y="404" width="255" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="CjfwvWxDudVawgM0l_9T-50" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;그렇다&amp;nbsp;&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1149" y="495" width="89" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="CjfwvWxDudVawgM0l_9T-51" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;틀리다&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1262" y="495" width="89" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="CjfwvWxDudVawgM0l_9T-52" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;추가 요청&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1390" y="495" width="89" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="CjfwvWxDudVawgM0l_9T-53" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1626" y="-171" width="504" height="746" as="geometry" />
+        </mxCell>
+        <mxCell id="CjfwvWxDudVawgM0l_9T-54" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=light-dark(#fffaeb, #281d00);sketch=1;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1655" y="-148" width="450" height="692" as="geometry" />
+        </mxCell>
+        <mxCell id="CjfwvWxDudVawgM0l_9T-58" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;그렇다&amp;nbsp;&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1977" y="-117" width="89" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="CjfwvWxDudVawgM0l_9T-64" value="너의 요청을 봤을 때, 이전 사용자의 비슷한 질문 내용을 5개 뽑아 봤어. 이 중에 너가 원하는 정보가 있니 ?&amp;nbsp;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=33;position=0.2;base=12;position2=0.04;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1676" y="-48" width="255" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="CjfwvWxDudVawgM0l_9T-68" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=33;position=0.2;base=12;position2=0.04;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1679" y="67" width="255" height="237" as="geometry" />
+        </mxCell>
+        <mxCell id="CjfwvWxDudVawgM0l_9T-69" value="example docs1&amp;nbsp;&lt;br&gt;&lt;br&gt;...&lt;br&gt;..." style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#999999;strokeWidth=1;fillColor=#FFFFFF;fontColor=#6C767D;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=10;fontSize=14;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="1690" y="87" width="234" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="CjfwvWxDudVawgM0l_9T-70" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=33;position=0.2;base=12;position2=0.04;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1676" y="313" width="255" height="237" as="geometry" />
+        </mxCell>
+        <mxCell id="CjfwvWxDudVawgM0l_9T-71" value="example docs2&amp;nbsp;&lt;br&gt;&lt;br&gt;...&lt;br&gt;..." style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#999999;strokeWidth=1;fillColor=#FFFFFF;fontColor=#6C767D;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=10;fontSize=14;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="1687" y="333" width="234" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="CjfwvWxDudVawgM0l_9T-72" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2224" y="-175" width="504" height="746" as="geometry" />
+        </mxCell>
+        <mxCell id="CjfwvWxDudVawgM0l_9T-73" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=light-dark(#fffaeb, #281d00);sketch=1;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="2253" y="-152" width="450" height="692" as="geometry" />
+        </mxCell>
+        <mxCell id="CjfwvWxDudVawgM0l_9T-74" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;있는데, &lt;br&gt;다시 해봐라&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="2575" y="-121" width="89" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="CjfwvWxDudVawgM0l_9T-80" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;그렇다.&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="2291" y="-119" width="89" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="CjfwvWxDudVawgM0l_9T-81" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;없다.&lt;/b&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="2440" y="-121" width="89" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="CjfwvWxDudVawgM0l_9T-83" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;없다.&lt;/b&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="2575" y="-48" width="89" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="CjfwvWxDudVawgM0l_9T-84" value="그렇다면 이제, step1 -&amp;gt; &quot;&lt;i&gt;딸기 케이크의 종류 특정 및 선택&lt;/i&gt;&quot; 단계를 수행할거야. 아래의 응답이 마음에 들면 okay 라고 해줘&amp;nbsp;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=33;position=0.2;base=12;position2=0.04;align=left;" vertex="1" parent="1">
+          <mxGeometry x="2274" y="20" width="255" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="CjfwvWxDudVawgM0l_9T-85" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=33;position=0.2;base=12;position2=0.04;align=left;" vertex="1" parent="1">
+          <mxGeometry x="2271" y="130.5" width="255" height="143" as="geometry" />
+        </mxCell>
+        <mxCell id="CjfwvWxDudVawgM0l_9T-86" value="일반적인 쇼트 케이크&amp;nbsp;&lt;br&gt;...&lt;br&gt;..." style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#999999;strokeWidth=1;fillColor=#FFFFFF;fontColor=#6C767D;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=10;fontSize=14;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="2281.5" y="145.5" width="234" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CjfwvWxDudVawgM0l_9T-87" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=33;position=0.2;base=12;position2=0.04;align=left;" vertex="1" parent="1">
+          <mxGeometry x="2274" y="286" width="255" height="118" as="geometry" />
+        </mxCell>
+        <mxCell id="CjfwvWxDudVawgM0l_9T-88" value="레드 밸벳 딸기 케이크&amp;nbsp;&lt;br&gt;&lt;br&gt;..." style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#999999;strokeWidth=1;fillColor=#FFFFFF;fontColor=#6C767D;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=10;fontSize=14;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="2284.5" y="295" width="234" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CjfwvWxDudVawgM0l_9T-89" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=33;position=0.2;base=12;position2=0.04;align=left;" vertex="1" parent="1">
+          <mxGeometry x="2277" y="413" width="255" height="118" as="geometry" />
+        </mxCell>
+        <mxCell id="CjfwvWxDudVawgM0l_9T-90" value="아무거나 케이크&amp;nbsp;&lt;br&gt;&lt;br&gt;..." style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#999999;strokeWidth=1;fillColor=#FFFFFF;fontColor=#6C767D;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=10;fontSize=14;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="2287.5" y="422" width="234" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CjfwvWxDudVawgM0l_9T-91" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2830" y="-175" width="504" height="746" as="geometry" />
+        </mxCell>
+        <mxCell id="CjfwvWxDudVawgM0l_9T-92" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=light-dark(#fffaeb, #281d00);sketch=1;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="2859" y="-152" width="450" height="692" as="geometry" />
+        </mxCell>
+        <mxCell id="CjfwvWxDudVawgM0l_9T-104" value="일반적인 쇼트 케이크&amp;nbsp;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=34;position=0.76;base=12;position2=0.89;" vertex="1" parent="1">
+          <mxGeometry x="3010" y="-117" width="276" height="83" as="geometry" />
+        </mxCell>
+        <mxCell id="CjfwvWxDudVawgM0l_9T-105" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=33;position=0.2;base=12;position2=0.04;align=left;" vertex="1" parent="1">
+          <mxGeometry x="2886" y="-30" width="255" height="143" as="geometry" />
+        </mxCell>
+        <mxCell id="CjfwvWxDudVawgM0l_9T-106" value="일반적인 쇼트 케이크&amp;nbsp; - case 1&amp;nbsp;&lt;br&gt;...&lt;br&gt;... ( from google search )&amp;nbsp;" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#999999;strokeWidth=1;fillColor=#FFFFFF;fontColor=#6C767D;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=10;fontSize=14;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="2894" y="-16" width="234" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CjfwvWxDudVawgM0l_9T-107" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=33;position=0.2;base=12;position2=0.04;align=left;" vertex="1" parent="1">
+          <mxGeometry x="2883.5" y="118" width="255" height="143" as="geometry" />
+        </mxCell>
+        <mxCell id="CjfwvWxDudVawgM0l_9T-108" value="일반적인 쇼트 케이크&amp;nbsp; - case 2&lt;br&gt;...&lt;br&gt;... . ( from google scholar search )&amp;nbsp;" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#999999;strokeWidth=1;fillColor=#FFFFFF;fontColor=#6C767D;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=10;fontSize=14;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="2896.5" y="127" width="234" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CjfwvWxDudVawgM0l_9T-110" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=33;position=0.2;base=12;position2=0.04;align=left;" vertex="1" parent="1">
+          <mxGeometry x="2886" y="273.5" width="255" height="132.5" as="geometry" />
+        </mxCell>
+        <mxCell id="CjfwvWxDudVawgM0l_9T-109" value="일반적인 쇼트 케이크&amp;nbsp; - case 3&lt;br&gt;...&lt;br&gt;... . ( from es cluster )&amp;nbsp;" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#999999;strokeWidth=1;fillColor=#FFFFFF;fontColor=#6C767D;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=10;fontSize=14;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="2896.5" y="283" width="234" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CjfwvWxDudVawgM0l_9T-111" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=33;position=0.2;base=12;position2=0.04;align=left;" vertex="1" parent="1">
+          <mxGeometry x="2886" y="407.5" width="255" height="132.5" as="geometry" />
+        </mxCell>
+        <mxCell id="CjfwvWxDudVawgM0l_9T-112" value="일반적인 쇼트 케이크&amp;nbsp; - case 4&lt;br&gt;...&lt;br&gt;... . ( other llm results )&amp;nbsp;" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#999999;strokeWidth=1;fillColor=#FFFFFF;fontColor=#6C767D;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=10;fontSize=14;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="2899" y="417" width="234" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CjfwvWxDudVawgM0l_9T-113" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3417" y="-175" width="504" height="746" as="geometry" />
+        </mxCell>
+        <mxCell id="CjfwvWxDudVawgM0l_9T-114" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=light-dark(#fffaeb, #281d00);sketch=1;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="3446" y="-152" width="450" height="692" as="geometry" />
+        </mxCell>
+        <mxCell id="CjfwvWxDudVawgM0l_9T-115" value="2 번이 가장 좋은 듯.&amp;nbsp;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=34;position=0.76;base=12;position2=0.89;" vertex="1" parent="1">
+          <mxGeometry x="3610" y="-99" width="276" height="83" as="geometry" />
+        </mxCell>
+        <mxCell id="CjfwvWxDudVawgM0l_9T-116" value="요약해 줄까? 아니면 추가 정보가 필요함 ?" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=33;position=0.2;base=12;position2=0.04;align=center;" vertex="1" parent="1">
+          <mxGeometry x="3456" y="-26" width="255" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="CjfwvWxDudVawgM0l_9T-124" value="더 맛있게 만드는 방법&amp;nbsp;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=34;position=0.76;base=12;position2=0.89;" vertex="1" parent="1">
+          <mxGeometry x="3610" y="60" width="276" height="83" as="geometry" />
+        </mxCell>
+        <mxCell id="CjfwvWxDudVawgM0l_9T-125" value="(상황요약) ... 상황에서 더 맛있게 만드는 방법을 찾고 싶어 ?&amp;nbsp;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=33;position=0.2;base=12;position2=0.04;align=center;" vertex="1" parent="1">
+          <mxGeometry x="3459" y="130.5" width="255" height="95.5" as="geometry" />
+        </mxCell>
+        <mxCell id="CjfwvWxDudVawgM0l_9T-127" value="1. 케이크를 더 맛있게 제작하는 테크닉들&amp;nbsp;&lt;br&gt;&lt;br&gt;에 대한 정보를 추가해주면 될까 ?&amp;nbsp;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=33;position=0.2;base=12;position2=0.04;align=left;" vertex="1" parent="1">
+          <mxGeometry x="3459" y="240" width="255" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="CjfwvWxDudVawgM0l_9T-128" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;그렇다&amp;nbsp;&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="3517" y="326" width="89" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="CjfwvWxDudVawgM0l_9T-129" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;틀리다&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="3630" y="326" width="89" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="CjfwvWxDudVawgM0l_9T-130" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;추가 요청&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="3758" y="326" width="89" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="CjfwvWxDudVawgM0l_9T-131" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;그렇다&amp;nbsp;&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="3753" y="389.5" width="89" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="CjfwvWxDudVawgM0l_9T-132" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3975" y="-175" width="504" height="746" as="geometry" />
+        </mxCell>
+        <mxCell id="CjfwvWxDudVawgM0l_9T-133" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=light-dark(#fffaeb, #281d00);sketch=1;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="4004" y="-152" width="450" height="692" as="geometry" />
+        </mxCell>
+        <mxCell id="CjfwvWxDudVawgM0l_9T-135" value=".....&amp;nbsp;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=33;position=0.2;base=12;position2=0.04;align=center;" vertex="1" parent="1">
+          <mxGeometry x="4014" y="-26" width="255" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="CjfwvWxDudVawgM0l_9T-136" value="만족&amp;nbsp;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=34;position=0.76;base=12;position2=0.89;" vertex="1" parent="1">
+          <mxGeometry x="4168" y="60" width="276" height="83" as="geometry" />
+        </mxCell>
+        <mxCell id="CjfwvWxDudVawgM0l_9T-137" value="그러면 지금까지의 문답을 요약해줄까 ?&amp;nbsp;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=33;position=0.2;base=12;position2=0.04;align=center;" vertex="1" parent="1">
+          <mxGeometry x="4017" y="130.5" width="255" height="95.5" as="geometry" />
+        </mxCell>
+        <mxCell id="CjfwvWxDudVawgM0l_9T-139" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;그렇다&amp;nbsp;&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="4318" y="231" width="89" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="CjfwvWxDudVawgM0l_9T-143" value=".....&amp;nbsp;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=33;position=0.2;base=12;position2=0.04;align=center;" vertex="1" parent="1">
+          <mxGeometry x="4017" y="311" width="255" height="93" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="XKKtAUvuwN5Kd_xWjvrN" name="페이지-21">
+    <mxGraphModel dx="2447" dy="1315" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Ba2bGFQ7MRFGFtSlP82I-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-447" y="-112" width="1026" height="313" as="geometry" />
+        </mxCell>
+        <mxCell id="Ba2bGFQ7MRFGFtSlP82I-2" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;구조화 단계&amp;nbsp;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-423" y="-163" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ba2bGFQ7MRFGFtSlP82I-4" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-444" y="320" width="1026" height="313" as="geometry" />
+        </mxCell>
+        <mxCell id="Ba2bGFQ7MRFGFtSlP82I-5" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;검색과 자료 정리&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-430" y="275" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
