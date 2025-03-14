@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.16" pages="19">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.0" pages="20">
   <diagram name="페이지-1" id="zzNntaN4sGAtEQ5nvoOX">
     <mxGraphModel dx="1314" dy="812" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2237,6 +2237,23 @@
         </mxCell>
         <mxCell id="TRlUjcjJzxJEX84Mkhtk-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TRlUjcjJzxJEX84Mkhtk-30" target="TRlUjcjJzxJEX84Mkhtk-30">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="fxT58klrVKGchjUTlXP0" name="badGpt-ui">
+    <mxGraphModel dx="1637" dy="1315" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0zPFjgJ2CONHyVm8b-xY-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-68" y="-171" width="504" height="746" as="geometry" />
+        </mxCell>
+        <mxCell id="0zPFjgJ2CONHyVm8b-xY-3" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#1ba1e2;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="-4" y="-102" width="389" height="199" as="geometry" />
+        </mxCell>
+        <mxCell id="0zPFjgJ2CONHyVm8b-xY-4" value="" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=27;position=0.3;" vertex="1" parent="1">
+          <mxGeometry x="284" y="170" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
