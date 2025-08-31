@@ -2932,18 +2932,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="YqjBNgtat-HMuM7-td4Y" name="검색 과정 ">
-    <mxGraphModel dx="3204" dy="2386" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2377" dy="2386" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="gZqUd9lUbX9cl8TjV66P-66" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="-137.5" y="50" width="312.5" height="75" as="geometry" />
-        </mxCell>
-        <mxCell id="gZqUd9lUbX9cl8TjV66P-8" value="&lt;span style=&quot;font-size: 17px;&quot;&gt;&lt;b&gt;&quot;카카오 뱅크 검색 서비스 &quot;&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-60" y="72.5" width="260" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="gZqUd9lUbX9cl8TjV66P-56" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;검색어 입력&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-137.5" y="72.5" width="115" height="30" as="geometry" />
+        <mxCell id="gZqUd9lUbX9cl8TjV66P-56" value="&lt;span style=&quot;font-size: 26px;&quot;&gt;&lt;b&gt;키워드 부스트 쿼리 생성 예시 - 검색어 &#39;카카오 뱅크 검색 서비스 &#39;&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="339" y="-140" width="738.75" height="50" as="geometry" />
         </mxCell>
         <mxCell id="gZqUd9lUbX9cl8TjV66P-70" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="351.25" y="17.5" width="458.75" height="162.5" as="geometry" />
@@ -2952,31 +2946,31 @@
           <mxGeometry x="430" y="-58.75" width="310" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gZqUd9lUbX9cl8TjV66P-73" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="-111.25" y="295" width="292.5" height="350" as="geometry" />
+          <mxGeometry x="364.38" y="270" width="292.5" height="350" as="geometry" />
         </mxCell>
         <mxCell id="gZqUd9lUbX9cl8TjV66P-74" value="{&#xa;  &quot;canonical&quot;: &quot;카카오 뱅크&quot;,&#xa;  &quot;group&quot;: &quot;COMPANY&quot;,&#xa;  &quot;boost&quot;: 8,&#xa;  &quot;priority&quot;: 10,&#xa;  &quot;q&quot;: {&#xa;    &quot;match_phrase&quot;: {&#xa;      &quot;text&quot;: {&#xa;        &quot;query&quot;: &quot;카카오 뱅크&quot;,&#xa;        &quot;slop&quot;: 0&#xa;      }&#xa;    }&#xa;  }&#xa;}" style="text;whiteSpace=wrap;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-70" y="335" width="270" height="345" as="geometry" />
+          <mxGeometry x="405.63" y="310" width="270" height="345" as="geometry" />
         </mxCell>
         <mxCell id="gZqUd9lUbX9cl8TjV66P-76" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;keyword boost index&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-131.25" y="250" width="310" height="30" as="geometry" />
+          <mxGeometry x="339" y="290" width="310" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gZqUd9lUbX9cl8TjV66P-77" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;&lt;b&gt;percolate query&amp;nbsp;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="50" y="200" width="270" height="30" as="geometry" />
+          <mxGeometry x="320" y="200" width="270" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="gZqUd9lUbX9cl8TjV66P-78" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=15;entryPerimeter=0;" edge="1" parent="1" source="gZqUd9lUbX9cl8TjV66P-70" target="gZqUd9lUbX9cl8TjV66P-73">
+        <mxCell id="gZqUd9lUbX9cl8TjV66P-78" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="gZqUd9lUbX9cl8TjV66P-73">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="730" y="460" as="sourcePoint" />
-            <mxPoint x="780" y="410" as="targetPoint" />
+            <mxPoint x="545.9375000000005" y="180" as="sourcePoint" />
+            <mxPoint x="-160" y="270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gZqUd9lUbX9cl8TjV66P-80" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.953;exitY=0.005;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="gZqUd9lUbX9cl8TjV66P-74">
+        <mxCell id="gZqUd9lUbX9cl8TjV66P-80" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.855;exitY=0;exitDx=0;exitDy=4.35;exitPerimeter=0;" edge="1" parent="1" source="gZqUd9lUbX9cl8TjV66P-73">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="730" y="460" as="sourcePoint" />
-            <mxPoint x="380" y="190" as="targetPoint" />
+            <mxPoint x="780" y="350" as="sourcePoint" />
+            <mxPoint x="660.6250000000005" y="180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="gZqUd9lUbX9cl8TjV66P-81" value="&lt;span style=&quot;font-size: 17px;&quot;&gt;&lt;b&gt;Keyword 부스트 정보&amp;nbsp;&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="185" y="290" width="270" height="30" as="geometry" />
+          <mxGeometry x="600" y="220" width="270" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gZqUd9lUbX9cl8TjV66P-84" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D4E1F5;" vertex="1" parent="1">
           <mxGeometry x="320" y="50" width="240" height="90" as="geometry" />
@@ -3007,12 +3001,6 @@
         </mxCell>
         <mxCell id="gZqUd9lUbX9cl8TjV66P-92" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="997.5" y="18.75" width="642.5" height="162.5" as="geometry" />
-        </mxCell>
-        <mxCell id="gZqUd9lUbX9cl8TjV66P-93" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;endWidth=54;endSize=10.33;width=104;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="210" y="86.79000000000002" as="sourcePoint" />
-            <mxPoint x="290" y="86.79000000000002" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="gZqUd9lUbX9cl8TjV66P-94" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;endWidth=54;endSize=10.33;width=104;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
