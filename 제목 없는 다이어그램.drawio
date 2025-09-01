@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.4" pages="24">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.4" pages="26">
   <diagram name="페이지-1" id="zzNntaN4sGAtEQ5nvoOX">
     <mxGraphModel dx="1314" dy="812" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2729,10 +2729,13 @@
     </mxGraphModel>
   </diagram>
   <diagram id="qhzfDHdNsULe8tgHBnBl" name="index analyzing 복잡">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2037" dy="1043" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="f1ucHzt-dqnLq-Q4vKYL-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="333" y="240" width="1339" height="721" as="geometry" />
+        </mxCell>
         <mxCell id="CXV-5vh3PLnTUKkabnD6-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="440" y="330" width="160" height="230" as="geometry" />
         </mxCell>
@@ -2742,13 +2745,13 @@
         <mxCell id="CXV-5vh3PLnTUKkabnD6-3" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;아웃풋 토큰&amp;nbsp;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1432.5" y="290" width="115" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="CXV-5vh3PLnTUKkabnD6-4" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="CXV-5vh3PLnTUKkabnD6-4" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1410" y="330" width="160" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="CXV-5vh3PLnTUKkabnD6-5" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+        <mxCell id="CXV-5vh3PLnTUKkabnD6-5" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="704" y="330" width="576" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="CXV-5vh3PLnTUKkabnD6-6" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;analyzing 과정 : detail&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="CXV-5vh3PLnTUKkabnD6-6" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;analyzing 과정&amp;nbsp;&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="841.25" y="290" width="310" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CXV-5vh3PLnTUKkabnD6-7" value="&lt;b&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;[ &#39;카카오&#39; , &#39;뱅크&#39;]&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -2781,7 +2784,7 @@
             <mxPoint x="1390" y="444" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="CXV-5vh3PLnTUKkabnD6-16" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+        <mxCell id="CXV-5vh3PLnTUKkabnD6-16" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="370" y="730" width="380" height="170" as="geometry" />
         </mxCell>
         <mxCell id="CXV-5vh3PLnTUKkabnD6-17" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;&lt;b style=&quot;&quot;&gt;char_filter&amp;nbsp; :&amp;nbsp; 영어 표현 띄어쓰기 분리&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -2808,7 +2811,7 @@
         <mxCell id="CXV-5vh3PLnTUKkabnD6-23" value="&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;[&#39;kakao&#39;, &#39;bank&#39;]&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="540" y="800" width="260" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="CXV-5vh3PLnTUKkabnD6-24" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+        <mxCell id="CXV-5vh3PLnTUKkabnD6-24" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="810" y="730" width="380" height="170" as="geometry" />
         </mxCell>
         <mxCell id="CXV-5vh3PLnTUKkabnD6-25" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;&lt;b style=&quot;&quot;&gt;nori_tokenizer&amp;nbsp; :&amp;nbsp; 한국어 형태소 분리&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -2832,7 +2835,7 @@
         <mxCell id="CXV-5vh3PLnTUKkabnD6-31" value="&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;[&#39;카카오&#39;, &#39;뱅크&#39;]&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="980" y="800" width="260" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="CXV-5vh3PLnTUKkabnD6-32" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+        <mxCell id="CXV-5vh3PLnTUKkabnD6-32" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="1227.5" y="730" width="380" height="170" as="geometry" />
         </mxCell>
         <mxCell id="CXV-5vh3PLnTUKkabnD6-33" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;&lt;b style=&quot;&quot;&gt;synony_filter&amp;nbsp; :&amp;nbsp; 동의어 변환&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -2920,13 +2923,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="R72DRjdkr1ZQ44BMkj5D-3" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="1740" y="333.75" width="190" height="222.5" as="geometry" />
+          <mxGeometry x="1720" y="333.75" width="190" height="222.5" as="geometry" />
         </mxCell>
         <mxCell id="R72DRjdkr1ZQ44BMkj5D-4" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;엘라스틱서치&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1777.5" y="290" width="115" height="30" as="geometry" />
+          <mxGeometry x="1757.5" y="293" width="115" height="30" as="geometry" />
         </mxCell>
         <mxCell id="R72DRjdkr1ZQ44BMkj5D-5" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;문서 저장&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1777.5" y="435" width="115" height="30" as="geometry" />
+          <mxGeometry x="1757.5" y="435" width="115" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f1ucHzt-dqnLq-Q4vKYL-2" value="ㅣ" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1132" y="626" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -3044,6 +3050,22 @@
         <mxCell id="gZqUd9lUbX9cl8TjV66P-104" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;문서 검색&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1827.5" y="116.25" width="115" height="30" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="drOkv44RXoF-TVWhCE0t" name="phrase query 설명">
+    <mxGraphModel dx="1426" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="DPUletznhvKJ1o97Eji_" name="percolate query 설명 ">
+    <mxGraphModel dx="1426" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
