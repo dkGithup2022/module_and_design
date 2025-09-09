@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.4" pages="26">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.1.2" pages="30">
   <diagram name="페이지-1" id="zzNntaN4sGAtEQ5nvoOX">
     <mxGraphModel dx="1314" dy="812" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3066,6 +3066,263 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="wekcrdkB2-BvaG19Cfv4" name="서비스 아키텍쳐 ">
+    <mxGraphModel dx="1426" dy="730" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="IqgT63YPj53C-LYn1tzP" name="db to es ">
+    <mxGraphModel dx="2505" dy="941" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RaprBBdEG0Dj95fHw1tm-47" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="100" width="843" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="RaprBBdEG0Dj95fHw1tm-11" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="370" y="221.5" width="300" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="RaprBBdEG0Dj95fHw1tm-10" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="370" y="396.5" width="300" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="RaprBBdEG0Dj95fHw1tm-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="23" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RaprBBdEG0Dj95fHw1tm-2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="23" y="306.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RaprBBdEG0Dj95fHw1tm-3" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="233" y="280" width="100" height="113" as="geometry" />
+        </mxCell>
+        <mxCell id="RaprBBdEG0Dj95fHw1tm-5" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="700" y="406.5" width="110" height="113" as="geometry" />
+        </mxCell>
+        <mxCell id="RaprBBdEG0Dj95fHw1tm-6" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="700" y="225" width="110" height="113" as="geometry" />
+        </mxCell>
+        <mxCell id="RaprBBdEG0Dj95fHw1tm-7" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="380" y="433" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RaprBBdEG0Dj95fHw1tm-8" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="530" y="433" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RaprBBdEG0Dj95fHw1tm-9" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="403" y="256.5" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RaprBBdEG0Dj95fHw1tm-12" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="23" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RaprBBdEG0Dj95fHw1tm-13" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="23" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RaprBBdEG0Dj95fHw1tm-14" value="&lt;b&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;데이터 변경 진입점&amp;nbsp;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="120" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RaprBBdEG0Dj95fHw1tm-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.01;entryY=0.257;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="RaprBBdEG0Dj95fHw1tm-1" target="RaprBBdEG0Dj95fHw1tm-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="373" y="430" as="sourcePoint" />
+            <mxPoint x="423" y="380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="183" y="230" />
+              <mxPoint x="183" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RaprBBdEG0Dj95fHw1tm-16" value="&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;CRUD-API&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="38" y="215" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RaprBBdEG0Dj95fHw1tm-17" value="&lt;span style=&quot;font-size: 17px;&quot;&gt;&lt;b&gt;DB -&amp;gt; ES 싱크 배치&amp;nbsp;&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="448" y="120" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RaprBBdEG0Dj95fHw1tm-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="RaprBBdEG0Dj95fHw1tm-2" target="RaprBBdEG0Dj95fHw1tm-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="373" y="430" as="sourcePoint" />
+            <mxPoint x="423" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RaprBBdEG0Dj95fHw1tm-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="RaprBBdEG0Dj95fHw1tm-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="373" y="430" as="sourcePoint" />
+            <mxPoint x="233" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="163" y="430" />
+              <mxPoint x="163" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RaprBBdEG0Dj95fHw1tm-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="RaprBBdEG0Dj95fHw1tm-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="373" y="430" as="sourcePoint" />
+            <mxPoint x="231" y="380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="183" y="530" />
+              <mxPoint x="183" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RaprBBdEG0Dj95fHw1tm-22" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="670" y="463" as="sourcePoint" />
+            <mxPoint x="700" y="463" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RaprBBdEG0Dj95fHw1tm-23" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="670" y="286.08" as="sourcePoint" />
+            <mxPoint x="700" y="286.08" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RaprBBdEG0Dj95fHw1tm-24" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;조회수 배치&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="38" y="321.5" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RaprBBdEG0Dj95fHw1tm-25" value="&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;채용 리소스 배치&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30.5" y="415" width="105" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RaprBBdEG0Dj95fHw1tm-26" value="&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;외부 리소스 배치&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30.5" y="515" width="105" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RaprBBdEG0Dj95fHw1tm-27" value="&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;MySql&lt;br&gt;(원본 DB)&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="238" y="321.5" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RaprBBdEG0Dj95fHw1tm-34" value="&lt;span style=&quot;font-size: 17px;&quot;&gt;&lt;b&gt;벡터 자료형 생성&amp;nbsp;&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="435" y="366.5" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RaprBBdEG0Dj95fHw1tm-35" value="&lt;span style=&quot;font-size: 17px;&quot;&gt;&lt;b&gt;일반 자료형 생성&amp;nbsp;&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="445" y="188" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RaprBBdEG0Dj95fHw1tm-36" value="&lt;b style=&quot;&quot;&gt;&lt;font&gt;키워드 기반 요약본 추출&amp;nbsp;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="378.5" y="433" width="123" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RaprBBdEG0Dj95fHw1tm-37" value="&lt;b style=&quot;&quot;&gt;&lt;font&gt;gpt-4.1-mini 호출&amp;nbsp;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="383.5" y="463" width="113" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RaprBBdEG0Dj95fHw1tm-38" value="&lt;b&gt;요약본 벡터화&amp;nbsp;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="543.5" y="433" width="93" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RaprBBdEG0Dj95fHw1tm-39" value="&lt;b style=&quot;&quot;&gt;&lt;font&gt;e5-small api 호출&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="536.5" y="463" width="107" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RaprBBdEG0Dj95fHw1tm-40" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RaprBBdEG0Dj95fHw1tm-36" target="RaprBBdEG0Dj95fHw1tm-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="513" y="551.5" as="sourcePoint" />
+            <mxPoint x="643" y="561.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RaprBBdEG0Dj95fHw1tm-41" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="RaprBBdEG0Dj95fHw1tm-8" target="RaprBBdEG0Dj95fHw1tm-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="373" y="631.5" as="sourcePoint" />
+            <mxPoint x="423" y="581.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RaprBBdEG0Dj95fHw1tm-44" value="&lt;b style=&quot;&quot;&gt;&lt;font&gt;1. 원본 db 업데이트 이력 읽기&amp;nbsp;&lt;br&gt;2. es 로 싱크 후, 성공/실패 이력 기록&lt;br&gt;(일반, 벡터화 공통 작업 )&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="422" y="266.5" width="196" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RaprBBdEG0Dj95fHw1tm-45" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=35.75;exitPerimeter=0;" edge="1" parent="1" source="RaprBBdEG0Dj95fHw1tm-3" target="RaprBBdEG0Dj95fHw1tm-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="373" y="470" as="sourcePoint" />
+            <mxPoint x="423" y="420" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="353" y="316" />
+              <mxPoint x="353" y="287" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RaprBBdEG0Dj95fHw1tm-46" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=77.25;exitPerimeter=0;" edge="1" parent="1" source="RaprBBdEG0Dj95fHw1tm-3" target="RaprBBdEG0Dj95fHw1tm-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="373" y="470" as="sourcePoint" />
+            <mxPoint x="423" y="420" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="353" y="357" />
+              <mxPoint x="353" y="462" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RaprBBdEG0Dj95fHw1tm-48" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="400" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RaprBBdEG0Dj95fHw1tm-49" value="&lt;b style=&quot;&quot;&gt;&lt;font&gt;upsert 후 {resource}_update_status 이력 생성&amp;nbsp;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry y="158" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RaprBBdEG0Dj95fHw1tm-50" value="&lt;b style=&quot;&quot;&gt;&lt;font&gt;{resource}_update_status 이력을 읽어서 데이터 sync&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="345" y="158" width="385" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RaprBBdEG0Dj95fHw1tm-51" value="&lt;b&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;VECTOR_HIRING&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="700" y="256.5" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RaprBBdEG0Dj95fHw1tm-53" value="&lt;b&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;VECTOR_QUESTION&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="700" y="271.5" width="96.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RaprBBdEG0Dj95fHw1tm-54" value="&lt;b&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;VECTOR_TRANSLATION&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="700" y="286.5" width="123" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RaprBBdEG0Dj95fHw1tm-55" value="" style="shape=ellipse;fillColor=#000000;strokeColor=none;html=1;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="730" y="321.5" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="RaprBBdEG0Dj95fHw1tm-56" value="" style="shape=ellipse;fillColor=#000000;strokeColor=none;html=1;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="750" y="321.5" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="RaprBBdEG0Dj95fHw1tm-57" value="" style="shape=ellipse;fillColor=#000000;strokeColor=none;html=1;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="770" y="321.5" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="RaprBBdEG0Dj95fHw1tm-58" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="670" y="465.08" as="sourcePoint" />
+            <mxPoint x="700" y="465.08" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RaprBBdEG0Dj95fHw1tm-59" value="&lt;b&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;HIRING&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="720" y="433" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RaprBBdEG0Dj95fHw1tm-60" value="&lt;b&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;QUESTION&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="718" y="448" width="96.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RaprBBdEG0Dj95fHw1tm-61" value="&lt;b&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;TRANSLATION&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="718" y="463" width="88.75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RaprBBdEG0Dj95fHw1tm-62" value="" style="shape=ellipse;fillColor=#000000;strokeColor=none;html=1;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="730" y="500.5" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="RaprBBdEG0Dj95fHw1tm-63" value="" style="shape=ellipse;fillColor=#000000;strokeColor=none;html=1;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="750" y="500.5" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="RaprBBdEG0Dj95fHw1tm-64" value="" style="shape=ellipse;fillColor=#000000;strokeColor=none;html=1;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="770" y="500.5" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="RaprBBdEG0Dj95fHw1tm-67" value="&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;벡터 인덱스&amp;nbsp;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="693.5" y="188" width="123" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RaprBBdEG0Dj95fHw1tm-69" value="&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;일반 인덱스&amp;nbsp;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="693.5" y="370" width="123" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="te5bntjeXW5tufUZ_Fuv" name="채용 크롤러">
+    <mxGraphModel dx="1426" dy="730" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="AGalKEbs22TNkBQhMFAX" name="채용 크롤러2">
+    <mxGraphModel dx="1426" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0uSS2mvF_niU6A8dsza--1" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="410" y="380" as="sourcePoint" />
+            <mxPoint x="490" y="380" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
